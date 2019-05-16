@@ -4,17 +4,31 @@
     padding-bottom: 20px;
 }
 
+.cartoes .card-text {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: .8rem;
+}
+
 #corpo-titulo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 49px;
+    font-size: 2.5rem;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
 }
 
 #corpo {
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+#corpo h3 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 #profissionais {
