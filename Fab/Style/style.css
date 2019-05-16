@@ -34,52 +34,6 @@
 }
 
 
-/*FOOTER SECTION - INICIO*/
-
-.pos {
-    text-align: center;
-    padding-top: 8px;
-    background-color: black;
-}
-
-.rodape {
-    color: white;
-    background-color: black;
-    margin: 0 !important;
-}
-
-
-/*FOOTER SECTION - FIM*/
-
-
-/*PROBARI SECTION - INICIO*/
-
-.probari-paragraph {
-    font-family: 'Comfortaa Light', sans-serif;
-    font-weight: 100;
-    font-size: 1.2rem;
-    text-align: justify;
-    color: #007bff !important;
-}
-
-.probari-image {
-    width: 30% !important;
-    margin: 1em auto 1em auto;
-}
-
-.probari-button {
-    font-size: .9rem;
-    margin: 1rem 0 1.5rem 0;
-}
-
-.probari-button:hover {
-    background-color: #7abdd5;
-}
-
-
-/*PROBARI SECTION - FIM*/
-
-
 /*NAVBAR SECTION - INICIO*/
 
 .menu {
@@ -91,7 +45,7 @@
 }
 
 
-/*NAVBAR SECTION - INICIO*/
+/*NAVBAR SECTION - FIM*/
 
 
 /*TESTIMONIES SECTION - INICIO*/
@@ -109,6 +63,8 @@
 }
 
 .slider-testimonies-p {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: lighter;
     margin: 0;
 }
 
@@ -150,6 +106,96 @@ blockquote {
 
 
 /*TESTIMONIES SECTION - FIM*/
+
+
+/*PROBARI SECTION - INICIO*/
+
+.probari-paragraph {
+    font-family: 'Comfortaa Light', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #007bff !important;
+}
+
+.probari-image {
+    width: 30% !important;
+    margin: 1em auto 1em auto;
+}
+
+.probari-button {
+    font-size: .9rem;
+    margin: 1rem 0 1.5rem 0;
+    border-width: 0;
+}
+
+.probari-button:hover {
+    background-color: #7abdd5;
+    border-width: 0;
+}
+
+
+/*PROBARI SECTION - FIM*/
+
+
+/*CONVENIOS ATENDIDOS - INICIO*/
+
+#convenios-atendidos {
+    border-top-style: solid;
+    border-color: #005CBF;
+    padding: 2rem 0 0 0;
+    margin: 0 0 2rem 0;
+}
+
+#convenios-atendidos h2 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+#convenios-atendidos img {
+    width: 10rem !important;
+    height: 10rem !important;
+    border-style: solid;
+    border-color: rgba(0, 123, 255, .1);
+    margin: 0 10px 0 10px;
+}
+
+#convenios-atendidos figure {
+    text-align: center !important;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bolder;
+}
+
+#convenios-atendidos figcaption {
+    margin: .9rem 0 0 0;
+}
+
+#convenios-atendidos .item {
+    align-content: center;
+}
+
+
+/*CONVENIOS ATENDIDOS - FIM*/
+
+
+/*FOOTER SECTION - INICIO*/
+
+.pos {
+    text-align: center;
+    padding-top: 8px;
+    background-color: black;
+}
+
+.rodape {
+    color: white;
+    background-color: black;
+    margin: 0 !important;
+}
+
+
+/*FOOTER SECTION - FIM*/
 
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 3.5rem;
