@@ -9,6 +9,11 @@
     font-size: .8rem;
 }
 
+.card-title {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+}
+
 #corpo-titulo {
     position: absolute;
     top: 50%;
@@ -35,4 +40,7 @@
     color: white;
     padding-bottom: 10px;
     font-weight: bold;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+    margin: 1rem 0 1rem 0;
 }
