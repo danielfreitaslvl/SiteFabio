@@ -44,6 +44,16 @@
     background-color: rgba(248, 249, 250, 0.7);
 }
 
+.nav-link {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 100;
+}
+
+.title-logo {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bolder;
+}
+
 
 /*NAVBAR SECTION - FIM*/
 
@@ -93,10 +103,6 @@
     line-height: 0;
     font-style: italic;
     padding: 13px;
-}
-
-blockquote {
-    margin: 0;
 }
 
 .pquote p:first-letter {
