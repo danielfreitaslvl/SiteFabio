@@ -3,7 +3,11 @@
     color: white;
     font-family: "Comfortaa", sans-serif;
 }
-
+.imagem-logo{
+    max-width:100%;
+    height:64px;
+    width: 200px;
+}
 .btn-secondary {
     background-color: #007bff;
 }
@@ -23,7 +27,7 @@
 
 .imagem {
     background-repeat: no-repeat;
-    background-image: url(../Images/medico.jpg);
+    background-image: url(../Images/consultorio-3.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
