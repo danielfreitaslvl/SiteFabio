@@ -3,10 +3,18 @@
     color: white;
     font-family: "Comfortaa", sans-serif;
 }
+.imagem-card{
+    object-fit: cover;
+    height: 60%;
+}
+.card-equipe{
+    object-fit: cover;
+    height: 90%;
+}
 .imagem-logo{
     max-width:100%;
-    height:64px;
-    width: 200px;
+    height:20%;
+    width: 55%;
 }
 .btn-secondary {
     background-color: #007bff;
