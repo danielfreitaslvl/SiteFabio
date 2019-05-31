@@ -11,6 +11,10 @@
     object-fit: cover;
     height: 90%;
 }
+.card-fab{
+    object-fit: cover;
+    height: 98%;
+}
 .imagem-logo{
     max-width:100%;
     height:20%;
