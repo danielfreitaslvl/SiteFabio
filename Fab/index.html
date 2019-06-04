@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center menu">
+        <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-center fixed-top menu">
             <a href="index.html" class="navbar-brand mr-0 title-logo"><img src="Images/logo-fundo-transparente.png" class="imagem-logo"></a>
             <input class="navbar-toggler ml-1 navbar-toggler-icon" type="button" style="padding: 10px" data-toggle="collapse" data-target="#collapsingNavbar2">
 
@@ -26,10 +26,15 @@
                 <ul class="navbar-nav mx-auto text-center">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">INICIO<span class="sr-only">Home</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cirurgia.html">CIRÚRGIAS</a>
-                    </li>
+                    </li>  
+                    <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="cirurgia.html" role="button" aria-haspopup="true" aria-expanded="false">Cirúrgias</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="bariatrica.html">bariátrica</a>
+                            <a class="dropdown-item" href="refluxo.html">Refluxo</a>
+                            <a class="dropdown-item" href="visicula.html">Vesícula</a>
+                        </div>
+                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="corpo-clinico.html">EQUIPE</a>
                     </li>
@@ -37,13 +42,13 @@
                         <a class="nav-link" href="contato.html">CONTATOS</a>
                     </li>
                     <li class="nav-item">
-                        <a target = "_blank" href = "https://www.doctoralia.com.br/fabio-faleiro-vieira/cirurgiao-do-aparelho-digestivo-cirurgiao-geral/goiania" class="btn btn-primary">AGENDAR CONSULTA</a>
+                        <a target = "_blank" href = "https://www.doctoralia.com.br/fabio-faleiro-vieira/cirurgiao-do-aparelho-digestivo-cirurgiao-geral/goiania" class="btn btn-primary altura-botao">AGENDAR CONSULTA</a>
                     </li>
                 </ul>
         </nav>
 
     </header>
-
+     <br><br><br>
     <section>
         <div class="row">
             <div class="col-md-12" style="height: 100vh">

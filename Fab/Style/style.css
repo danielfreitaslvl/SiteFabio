@@ -7,6 +7,9 @@
     object-fit: cover;
     height: 60%;
 }
+.altura-botao{
+    height:100%;
+}
 .card-equipe{
     object-fit: cover;
     height: 90%;
