@@ -7,6 +7,21 @@
     object-fit: cover;
     height: 60%;
 }
+.tamanho-convenios{
+    height: 100%;
+    widows: 100%;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+.altura-botao{
+    height:100%;
+}
 .card-equipe{
     object-fit: cover;
     height: 90%;
