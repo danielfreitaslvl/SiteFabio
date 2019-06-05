@@ -1,13 +1,20 @@
-.divs-imagens{
+.divs-imagens {
     margin: 1rem 1rem 1rem 1rem;
 }
-.paragrafos{
-    font-size:1.2rem;
+
+.paragrafos {
+    font-size: 1.2rem;
 }
-.cirurgias{
+
+.cirurgias {
     margin: 0rem 1.5rem 0rem 1.5rem;
 }
-.tamanho-imagens{
+
+.tamanho-imagens {
     width: 100%;
     height: 100%;
+}
+
+.header-cirurgias {
+    object-fit: cover;
 }
