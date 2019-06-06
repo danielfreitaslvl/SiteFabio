@@ -1,11 +1,13 @@
 $(document).ready(function() {
     $('.owl-carousel-convenios').owlCarousel({
         loop: true,
-        margin: 30,
         nav: true,
+        //autoplay: true,
+        //autoplayHoverPause: true,
+        dots: true,
         responsive: {
             0: {
-                items: 3
+                items: 1
             },
             600: {
                 items: 3
