@@ -1,3 +1,4 @@
+var flagFadeRight = 0;
 $(document).ready(function() {
     $('.owl-carousel-convenios').owlCarousel({
         loop: true,
@@ -34,3 +35,4 @@ $(document).ready(function() {
         dotsEach: true
     })
 });
+

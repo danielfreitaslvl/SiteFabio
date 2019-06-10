@@ -1,5 +1,7 @@
 .divs-imagens {
     margin: 1rem 1rem 1rem 1rem;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .paragrafos {
@@ -8,13 +10,42 @@
 
 .cirurgias {
     margin: 0rem 1.5rem 0rem 1.5rem;
+    display: inline-block;
+}
+
+.titulos-cirurgias {
+	font-family: "Comfortaa", sans-serif;
+	font-weight: bolder;
+	font-size: 1.5rem;
+}
+
+.paragraphs{
+	font-family: "Comfortaa", sans-serif;
+	font-weight: lighter;
 }
 
 .tamanho-imagens {
     width: 100%;
     height: 100%;
+
 }
 
 .header-cirurgias {
     object-fit: cover;
+}
+
+.visibleOff{
+	visibility: hidden;
+}
+
+.visibleOn{
+	visibility: visible;
+}
+
+.button-saiba-mais{
+	margin-top: 25%;
+}
+.header-cirurgia-imagem{
+	max-width: 100vw;
+	max-height: 100vh;
 }
