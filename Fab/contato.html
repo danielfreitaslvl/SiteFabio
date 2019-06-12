@@ -5,13 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Scripts/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link rel="stylesheet" type="text/css" href="Style/contato.css">
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <title>Contato</title>
+    <title>Contato - Doutor Fábio Faleiro - Médico Cirurgião</title>
 </head>
 
 <body>
@@ -27,9 +28,9 @@
                             <a class="nav-link active" href="index.html">INICIO<span class="sr-only">Home</span></a>
                         </li>
                         <li class="dropdown nav-item">
-                            <a class="nav-link btn btn-light text-dark dropdown-toggle" href="cirurgia.html" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-light text-dark dropdown-toggle" href="cirurgia.html" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                       CIRURGIAS
-                                    </a>
+                            </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                 <a class="dropdown-item text-center" href="cirurgia.html">TODAS AS CIRURGIAS</a>
                                 <a class="dropdown-item text-center" href="refluxo.html">REFLUXO</a>
@@ -56,50 +57,51 @@
 
         <section class="cartoes">
             <div class="container">
-                <div class=row>
-                    <div clas="col-md-12">
-                        <p>Endereço : Rua 95, 99 - St. Sul, Goiânia - GO, 74083-100</p>
-                    </div>
-                </div>
-                <section class="row">
 
+                <section class="row">
                     <div class="col-md-6">
-                        <form>
-                            <div class="row">
+                            <h3 class="textoFormatado">Está com algum dúvida?<br></h3>
+                            <h4 class="textoFormatado">Entre em contato conosco.</h4>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="row camposFormulario">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Telefone">
+                                    <input type="text" name="name" class="form-control" placeholder="Nome" required="true">
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row camposFormulario">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Nome">
+                                    <input type="text" name="phone" class="form-control" maxlength="15"  pattern="[0-9]+$" placeholder="Telefone" required="true">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="E-mail">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="text" class="form-control" placeholder="Assunto">
+                                    <input type="text" name="email" class="form-control" placeholder="E-mail" required="true">
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row camposFormulario">
+                                <div class="col">
+                                    <input type="text" name="subject" class="form-control" placeholder="Assunto">
+                                </div>
+                            </div>
+                            <div class="row camposFormulario">
                                 <div class="col">
                                     <div class="form-group">
                                         <label for="exampleFormControlTextarea1"></label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" required="true" ></textarea>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
+                            <div class="row camposFormulario">
                                 <div class="col">
-                                    <button type="button" class="btn btn-outline-primary">Enviar</button> </div>
+                                    <input name="Enviar" type="submit" class="btn-submit submitButton" value="Enviar"></input> 
+                                </div>
                             </div>
                         </form>
 
                     </div>
-                    <div class="col-md-6">
-                        <div id="googleMap" style="width:100%;height:400px;"></div>
+                    <div class="col-md-5">
+                        <p>Rua 95, 99 - St. Sul, Goiânia - GO, 74083-100 - Hospital Santa Helena</p>
+                        <p>Av. Mutirão, 2653 - St. Marista, Goiânia - GO, 74215-240 - Orion Business & Health Complex</p>
+                        <p>62 3219-9090</p>
+                        <div id="googleMap" style="width:100%;height:300px;"></div>
                     </div>
 
 
@@ -120,16 +122,8 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-        <script>
-            function myMap() {
-                var mapProp = {
-                    center: new google.maps.LatLng(51.508742, -0.120850),
-                    zoom: 5,
-                };
-                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-            }
-        </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ5vS1Yb4hHCteVkALhYr6yUagQHYBAnM&callback=myMap"></script>
+        <script type="text/javascript" src="Scripts/contato.js"></script>
 </body>
 
 </html>

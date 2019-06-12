@@ -1,22 +1,15 @@
+body{
+    font-family: "Comfortaa", sans serif;
+}
 .btn {
     border-radius: 1px;
     color: white;
     font-family: "Comfortaa", sans-serif;
 }
 
-.imagem-card {
-    object-fit: cover;
-    height: 60%;
-}
-
 .tamanho-convenios {
     height: 100%;
     widows: 100%;
-}
-
-.card-equipe {
-    object-fit: cover;
-    height: 90%;
 }
 
 .card-fab {
@@ -223,6 +216,10 @@
 
 #convenios-atendidos .item {
     align-content: center;
+}
+
+.imageScaled{
+    width: 120% !important;
 }
 
 
