@@ -5,14 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Scripts/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="Style/style.css">
     <link rel="stylesheet" type="text/css" href="Style/corpo-clinico.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-    <title>Equipe</title>
+    <title>Equipe - Doutor Fábio Faleiro - Médico Cirurgião</title>
 </head>
 
 <body>
@@ -27,9 +28,9 @@
                         <a class="nav-link active" href="index.html">INICIO<span class="sr-only">Home</span></a>
                     </li>
                     <li class="dropdown nav-item">
-                        <a class="nav-link btn btn-light text-dark dropdown-toggle" href="cirurgia.html" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  CIRURGIAS
-                                </a>
+                            <button class="btn btn-light text-dark dropdown-toggle" href="cirurgia.html" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    CIRURGIAS
+                          </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item text-center" href="cirurgia.html">TODAS AS CIRURGIAS</a>
                             <a class="dropdown-item text-center" href="refluxo.html">REFLUXO</a>
@@ -72,10 +73,10 @@
                     <h1 id="profissionais" class="text-center">Profissionais</h1>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
-                <div class="card-deck col-md-8">
+            <div class="row d-flex justify-content-center ">
+                <div class="card-deck col-md-8 visibleOff">
                     <div class="card card-fab">
-                        <img class="card-img-top imagem-card" src="Images/escritorio2.jpg" alt="Card image cap">
+                        <img class="card-img-top imagem-card" src="Images/escritorio2.png" alt="Doutor Fábio Faleiro em seu escritorio.">
                         <div class="card-body">
                             <h4 class="card-title">Fabio Faleiro Vieira</h4>
                             <h5 class="card-title">Médico Cirurgião</h5>
@@ -99,8 +100,8 @@
                 </div>
             </div>
             <section class="row">
-                <div class="card-deck ">
-                    <div class="card card-equipe">
+                <div class="card-deck col-md-12">
+                    <div class="card card-equipe col-md-4 visibleOffSegundoNivel1">
                         <img class="card-img-top imagem-card" src="Images/luana-perfil.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Luana Alvez Lopes</h4>
@@ -109,7 +110,7 @@
                             <p class="card-text">Graduada em Nutrição pela UFG, pós graduada em Nutrição Clínica e Esportica e em Nutrição Clínica Funcional</p>
                         </div>
                     </div>
-                    <div class="card card-equipe">
+                    <div class="card card-equipe col-md-4 visibleOffSegundoNivel2">
                         <img class="card-img-top imagem-card" src="Images/carolina-perfil.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Carolina Aguiar Pacheco Vaz</h4>
@@ -118,7 +119,7 @@
                             <p class="card-text">Pós graduada em obesidade, transtornos alimentares e cirúrgia bariátrica. Formação complementar em Saúde Mental e Psicopatologias. Membro COESAS da SBCBM - Sociedade Brasileira de CIrurgia Bariátrica e Metabólica.</p>
                         </div>
                     </div>
-                    <div class="card card-equipe">
+                    <div class="card card-equipe col-md-4 visibleOffSegundoNivel3">
                         <img class="card-img-top imagem-card" src="Images/cinthia-perfil.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Cinthia Yoshimura de Brito</h4>
@@ -147,6 +148,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script type="text/javascript" src="Scripts/equipe.js"></script>
 
 </body>
 

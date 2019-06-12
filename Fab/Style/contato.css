@@ -1,1 +1,29 @@
-.imagem-header {}
+.camposFormulario {
+    margin: 15px 0 0 0;
+}
+
+.container{
+    padding: 1em 0 1em 0;
+}
+
+.textoFormatado {
+    padding: 0 15px 0 15px;
+}
+
+.submitButton {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: .2rem;
+    width: 20%;
+    border-width: 1px;
+}
+
+.submitButton:hover {
+    transition: ease-out .2s;
+    color: #007bff;
+    background-color: #fff;
+    border-color: #007bff;
+    border-radius: .2rem;
+    width: 20%;
+    border-width: 1px;
+}

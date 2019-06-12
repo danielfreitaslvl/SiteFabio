@@ -1,5 +1,5 @@
 .cartoes {
-    background-color: #0c516e;
+    background-color: #007bff;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -43,4 +43,33 @@
     font-family: 'Comfortaa', sans-serif;
     font-weight: lighter;
     margin: 1rem 0 1rem 0;
+}
+
+.imagem-card {
+    height: 110% !important;
+    object-fit: cover;
+}
+
+.card-equipe {
+    object-fit: cover;
+    padding: 0 0 0 0 !important;
+}
+
+.visibleOff{
+	visibility: hidden;
+}
+
+.visibleOffSegundoNivel1{
+    visibility: hidden;
+}
+
+.visibleOffSegundoNivel2{
+    visibility: hidden;
+}
+
+.visibleOffSegundoNivel3{
+    visibility: hidden;
+}
+.visibleOn{
+	visibility: visible;
 }
