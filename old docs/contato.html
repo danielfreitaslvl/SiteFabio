@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="Scripts/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link rel="stylesheet" type="text/css" href="Style/contato.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <title>Contato - Doutor Fábio Faleiro - Médico Cirurgião</title>
+</head>
+
+<body>
+    <header>
+        <header>
+            <nav class="navbar navbar-light navbar-expand-md bg-light-menu justify-content-center fixed-top menu">
+                <a href="index.html" class="navbar-brand mr-0 text-center logo"><img src="Images/logo-fundo-transparente-refactor.png" class="imagem-logo"></a>
+                <input class="navbar-toggler ml-1 navbar-toggler-icon" type="button" style="padding: 10px" data-toggle="collapse" data-target="#collapsingNavbar2">
+
+                <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">INICIO<span class="sr-only">Home</span></a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <button class="btn btn-light text-dark dropdown-toggle" href="cirurgia.html" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      CIRURGIAS
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item text-center" href="cirurgia.html">TODAS AS CIRURGIAS</a>
+                                <a class="dropdown-item text-center" href="refluxo.html">REFLUXO</a>
+                                <a class="dropdown-item text-center" href="bariatrica.html">BARIÁTRICA</a>
+                                <a class="dropdown-item text-center" href="visicula.html">VESÍCULA</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="corpo-clinico.html">EQUIPE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">CONTATOS</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.doctoralia.com.br/fabio-faleiro-vieira/cirurgiao-do-aparelho-digestivo-cirurgiao-geral/goiania" class="btn cta btn-primary">AGENDAR CONSULTA <br> <h6 id="numero-contato">99820-7675</h6></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <img src="Images/escritorio-refactor.png" class="img-fluid">
+
+        <section class="cartoes">
+            <div class="container">
+
+                <section class="row">
+                    <div class="col-md-6">
+                            <h3 class="textoFormatado">Está com algum dúvida?<br></h3>
+                            <h4 class="textoFormatado">Entre em contato conosco.</h4>
+                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                            <div class="row camposFormulario">
+                                <div class="col">
+                                    <input type="text" name="name" class="form-control" placeholder="Nome" required="true">
+                                </div>
+                            </div>
+                            <div class="row camposFormulario">
+                                <div class="col">
+                                    <input type="text" name="phone" class="form-control" maxlength="15"  pattern="[0-9]+$" placeholder="Telefone" required="true">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="email" class="form-control" placeholder="E-mail" required="true">
+                                </div>
+                            </div>
+                            <div class="row camposFormulario">
+                                <div class="col">
+                                    <input type="text" name="subject" class="form-control" placeholder="Assunto">
+                                </div>
+                            </div>
+                            <div class="row camposFormulario">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1"></label>
+                                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="6" required="true" ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row camposFormulario">
+                                <div class="col">
+                                    <input name="Enviar" type="submit" class="btn-submit submitButton" value="Enviar"></input> 
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="col-md-5">
+                        <p>Rua 95, 99 - St. Sul, Goiânia - GO, 74083-100 - Hospital Santa Helena</p>
+                        <p>Av. Mutirão, 2653 - St. Marista, Goiânia - GO, 74215-240 - Orion Business & Health Complex</p>
+                        <p>62 3219-9090</p>
+                        <div id="googleMap" style="width:100%;height:300px;"></div>
+                    </div>
+
+
+                </section>
+
+
+            </div>
+
+        </section>
+
+        <section class="pos ">
+            <footer>
+                <p class="rodape ">Desenvolvido com &lt;3 - Level 5 Jr - www.level5jr.com.br</p>
+            </footer>
+        </section>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJ5vS1Yb4hHCteVkALhYr6yUagQHYBAnM&callback=myMap"></script>
+        <script type="text/javascript" src="Scripts/contato.js"></script>
+</body>
+
+</html>
