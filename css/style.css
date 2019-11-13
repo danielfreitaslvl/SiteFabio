@@ -1350,6 +1350,17 @@ h6 {
     color: #f1f7ff;
 }
 
+.pos {
+    text-align: center;
+    padding-top: 8px;
+    background-color: black;
+}
+
+.rodape {
+    color: white;
+    background-color: black;
+    margin: 0 !important;
+}
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
