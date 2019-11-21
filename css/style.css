@@ -176,7 +176,7 @@ h6 {
 #intro {
     width: 100%;
     position: relative;
-    background: url("../img/intro.png") center no-repeat;
+    background: url("../img/consultorio-3.jpg") center no-repeat;
     /* background-size: cover; */
     padding: 400px 0 120px 0;
 }
@@ -452,9 +452,7 @@ h6 {
 .mobile-nav-active .mobile-nav-toggle i {
     color: #fff;
 }
-
-
-
+    
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -1373,7 +1371,7 @@ h6 {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
     #header {
         height: 60px;
         padding: 10px 0;
